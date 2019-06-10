@@ -86,14 +86,14 @@
 
 })(jQuery);
 
-const movement = [
-	['d','r'],
-	['d','r'],
-	['r2','u2','l2'],
-	['l'],
-	['l'],
-	['d','r'],
-	['r1','d1'],
-];
+// const movement = [
+// 	['d','r'],
+// 	['d','r'],
+// 	['r2','u2','l2'],
+// 	['l'],
+// 	['l'],
+// 	['d','r'],
+// 	['r1','d1'],
+// ];
 
-$('.btn__progress').sp(movement);
+// $('.btn__progress').sp(movement);
