@@ -44,13 +44,13 @@
 				const top = {
 					next: inversePosition(
 								$(this)
-									.parent()
+									.closest('.page')
 									.next()
 									.css('top')
 							),
 					start:inversePosition(
 								$(this)
-									.parent()
+									.closest('.page')
 									.css('top')
 							),
 				};
@@ -58,13 +58,13 @@
 				const left = {
 					next: inversePosition(
 								$(this)
-									.parent()
+									.closest('.page')
 									.next()
 									.css('left')
 								),
 					start:inversePosition(
 									$(this)
-										.parent()
+										.closest('.page')
 										.css('left')
 								),															 
 				};
@@ -86,14 +86,14 @@
 
 })(jQuery);
 
-// const movement = [
-// 	['d','r'],
-// 	['d','r'],
-// 	['r2','u2','l2'],
-// 	['l'],
-// 	['l'],
-// 	['d','r'],
-// 	['r1','d1'],
-// ];
+const movement = [
+	['d','r'],
+	['d','r'],
+	['r2','u2','l2'],
+	['l'],
+	['l'],
+	['d','r'],
+	['r1','d1'],
+];
 
-// $('.btn__progress').sp(movement);
+$('.btn__progress').sp(movement);
